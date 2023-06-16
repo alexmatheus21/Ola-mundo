@@ -12,18 +12,15 @@ html {
     background-size: cover;
 }
 body {
-    font-family: 'Space Grotesk', sans-serif;;
+    font-family: 'Space Grotesk', sans-serif;
 
 }
 main {
     padding: 100px;
-    display: block;
     align-items: center;
     text-align: center;
     color: white;
-
     margin: auto;
-    width: 600px;
 }
 main img {
     height: 300px;
@@ -34,8 +31,11 @@ main img:hover {
     transition: 1.5s;
 }
 main div {
+    width: 300px;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.459);
-    padding: 10px;
+    padding: 10px;    
+
 }
 h1 {
     font-weight: 900;
