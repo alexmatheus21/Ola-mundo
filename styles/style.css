@@ -5,10 +5,10 @@
     margin: 0px;
 }
 html {
-    height: 100%;
-    background-image: url('img/bg.jpg');
+    height: 98vh;
+    background-image: url('../img/bg.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
 }
 body {
@@ -40,6 +40,10 @@ h1 {
     font-weight: 900;
     font-size: 1.8em;
 }
+h3 {
+    font-weight: 500;
+    font-size: 1.2em;
+}
 span {
     font-weight: 300;
     font-size: 0.8em;
@@ -52,4 +56,18 @@ span a {
 span a:hover {
     text-decoration: underline;
 
+}
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+div#projects{
+    padding: 20px;
+    height: 50vh;
+    width: 150vh;
+}
+div#col {
 }
