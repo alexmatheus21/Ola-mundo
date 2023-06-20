@@ -7,9 +7,7 @@
 }
 html {
     height: 98vh;
-    background-image: url('../img/bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: black url(../img/bg.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 body {
@@ -18,7 +16,7 @@ body {
 
 /* INDEX */
 
-main {
+main#main-container {
     padding: 100px;
     align-items: center;
     text-align: center;
